@@ -1,0 +1,56 @@
+#upload-container {
+  padding-top: 36px;
+}
+
+#upload-img-placeholder {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(230, 230, 230);
+  background: rgb(250, 250, 253);
+  margin-left: 16px;
+}
+
+#upload-img-placeholder > img {
+  width: 50px;
+  height: 50px;
+}
+
+#upload-img-placeholder > span {
+  font-size: 14px;
+  color: rgb(195, 194, 204);
+}
+
+.upload-place {
+  width: 350px;
+}
+
+.upload-label {
+  width: 80px;
+  font-size: 17px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+#selfie-description {
+  height: 200px;
+  font-size: 14px;
+}
+
+#submit-button {
+  float: right;
+  background-color: rgb(91, 97, 175);
+  color: white;
+  margin-top: 10px;
+  border: none;
+}
+
+#upload-img {
+  width: 300px;
+  height: 300px;
+  margin-left: 16px;
+  object-fit: contain;
+}
